@@ -6,11 +6,7 @@ export const metadata = {
   description: 'Chat, Image & Video AI from Afghanistan',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-gray-50 min-h-screen">
